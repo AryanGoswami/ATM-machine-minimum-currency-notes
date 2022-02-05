@@ -1,19 +1,16 @@
 #ATM machine-minimum currency notes
-a=input("Enter the amount you want to withdraw :")
-a=int(a)
+a=int(input("Enter the amount you want to withdraw: "))
+print("Currency Notes:-")
 b=int(a/2000)
 print("2000: ",b)
 c=a%2000
-d=c/500
-d=int(d)
+d=int(c/500)
 print( "500: ",d)
 e=c%500
-f=e/200
-f=int(f)
+f=int(e/200)
 print("200: ",f)
 g=e%200  
-h=g/100
-h=int(h)
+h=int(g/100)
 print("100: ",h)
 i=g%100
 j=int(i/50)

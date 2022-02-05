@@ -1,33 +1,23 @@
 #ATM machine-minimum currency notes
-a=int(input("Enter the amount you want to withdraw: "))
-print("Currency Notes:-")
-b=int(a/2000)
-print("2000: ",b)
+a=int(input("Enter the amount you want to withdraw :"))
+b=a//2000#notes of 2000
 c=a%2000
-d=int(c/500)
-print( "500: ",d)
+d=c//500#notes of 500
 e=c%500
-f=int(e/200)
-print("200: ",f)
+f=e//200#notes of 200
 g=e%200  
-h=int(g/100)
-print("100: ",h)
+h=g//100#notes of 100
 i=g%100
-j=int(i/50)
-print("50: ",j)
+j=i//50#notes of 50
 k=i%50
-l=int(k/20)
-print("20: ",l)
+l=k//20#notes of 20
 m=k%20
-n=int(m/10)
-print("10: ",n)
+n=m//10#notes of 10
 o=m%10
-p=int(o/5)
-print("5: ",p)
+p=o//5#notes of 5
 q=o%5
-r=int(q/2)
-print("2: ",r)
-s=q%2
-print("1: ",s)
+r=q//2#notes of 2
+s=q%2#notes of 1
+print(f"2000: {b}\n500: {d}\n200: {f}\n100: {h}\n50: {j}\n20: {l}\n10: {n}\n5: {p}\n2: {r}\n1: {s}")
 
 
